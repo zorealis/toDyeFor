@@ -1,0 +1,74 @@
+<configs>
+<append xpath="/item_modifiers/item_modifier[@name='modDyeBlack']">
+	<property name="EconomicValue" value="50"/>
+</append>
+<append xpath="/item_modifiers/item_modifier[@name='modDyeRed']">
+	<property name="EconomicValue" value="50"/>
+</append>
+<append xpath="/item_modifiers/item_modifier[@name='modDyeBlue']">
+	<property name="EconomicValue" value="50"/>
+</append>
+<append xpath="/item_modifiers/item_modifier[@name='modDyePurple']">
+	<property name="EconomicValue" value="50"/>
+</append>
+<append xpath="/item_modifiers/item_modifier[@name='modDyeYellow']">
+	<property name="EconomicValue" value="50"/>
+</append>
+<append xpath="/item_modifiers/item_modifier[@name='modDyeGreen']">
+	<property name="EconomicValue" value="50"/>
+</append>
+<append xpath="/item_modifiers/item_modifier[@name='modDyePink']">
+	<property name="EconomicValue" value="50"/>
+</append>
+<append xpath="/item_modifiers/item_modifier[@name='modDyeBrown']">
+	<property name="EconomicValue" value="50"/>
+</append>
+<append xpath="/item_modifiers">
+<item_modifier name="modDyeOrange" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeOrange" type="attachment" cosmetic_install_chance=".05">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,128,0"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,128,0"/>
+			<property name="CustomIconTint" value="255,128,0"/>
+			<property name="UMA.Overlay0Tint" value="255,128,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTankTop">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="255,128,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTShirtPlain">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="255,128,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTShirtZU">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="255,128,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelCoatJacketLetterZU">
+			<property name="UMA.Overlay0Tint" value="255,128,0,255"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelDenimShortsPants">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="255,128,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelSuitPants">
+			<property name="UMA.Overlay0Tint" value="255,128,0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelSuitJacket">
+			<property name="UMA.Overlay0Tint" value="255,128,0"/>
+		</item_property_overrides>
+</item_modifier>
+</append>
+</configs>

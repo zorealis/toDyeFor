@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="toDyeFor" />
+	<DisplayName value="To Dye For" />
+	<Description value="Adds dyes to purchase from traders. Adds orange dye." />
+	<Author value="Zorora" />
+	<Version value="1.0" />
+	<Website value="" />
+</xml>

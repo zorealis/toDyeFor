@@ -1,0 +1,39 @@
+<configs>
+
+<!-- Place the dye list before the group that it's being added to! -->
+<InsertBefore xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
+		<trader_item_group name="dyes" count="all">
+			<item name="modDyeBlack"/>
+			<item name="modDyeBlack"/>
+			<item name="modDyeBlack"/>
+			<item name="modDyeRed"/>
+			<item name="modDyeRed"/>
+			<item name="modDyeRed"/>
+			<item name="modDyeBlue"/>
+			<item name="modDyeBlue"/>
+			<item name="modDyeBlue"/>
+			<item name="modDyeYellow"/>
+			<item name="modDyeYellow"/>
+			<item name="modDyeYellow"/>
+			<item name="modDyeGreen"/>
+			<item name="modDyeGreen"/>
+			<item name="modDyeGreen"/>
+			<item name="modDyePurple"/>
+			<item name="modDyePurple"/>
+			<item name="modDyePurple"/>
+			<item name="modDyePink"/>
+			<item name="modDyePink"/>
+			<item name="modDyePink"/>
+			<item name="modDyeBrown"/>
+			<item name="modDyeBrown"/>
+			<item name="modDyeBrown"/>
+			<item name="modDyeOrange"/>
+			<item name="modDyeOrange"/>
+			<item name="modDyeOrange"/>
+		</trader_item_group>
+</InsertBefore>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
+	<item group="dyes"/>
+</append>
+</configs>
